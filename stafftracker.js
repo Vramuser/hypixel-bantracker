@@ -1,6 +1,6 @@
 const { WebhookClient } = require('discord.js');
 
-const webhookClient = new WebhookClient({ url: "UR URL });
+const webhookClient = new WebhookClient({ url: "UR URL" }); //Put your webhook between " " 
 const API_URL = "https://api.plancke.io/hypixel/v1/punishmentStats";
 let lastWatchdogTotal = null;
 let lastStaffTotal = null;
